@@ -26,6 +26,7 @@ main{
 main img{
     width: 150px;
     height: auto;
+
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow:0 0 30px gray;
