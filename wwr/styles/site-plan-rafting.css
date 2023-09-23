@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 
-:root {
+:root{
     --primary-color: #14213D;
     --secondary-color: #000000;
-    --accent-color: #E5E5E5;
+    --accent1-color: #E5E5E5;
+    --accent2-color:#E5E5E5;
+    
     --additional-accent-color: #FCA311;
     ;
     --heading-font: 'Inclusive Sans', sans-serif;
