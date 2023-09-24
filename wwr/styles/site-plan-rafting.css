@@ -1,21 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
 :root{
     --primary-color: #14213D;
     --secondary-color: #000000;
-    --accent-color: #E5E5E5;
-    --accent2-color:#E5E5E5;
+    --accent1-color: #E5E5E5;
+    --accent2-color:#FCA311;
     
     --additional-accent-color: #FCA311;
     ;
-    --heading-font: 'Inclusive Sans', sans-serif;
-    --paragraph-font: 'Ubuntu', sans-serif;
+    --heading-font: 'Open Sans', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
     --nav-background-color: #000000;
     --nav-link-color: #FFFFFF;
     --nav-hover-link-color: #000000;
     --nav-hover-background-color: #E5E5E5;
   }
-  
 
   body {
     font-family: var(--paragraph-font);
@@ -31,7 +29,7 @@
   
   header {
     padding: 20px;
-    background-color: var(--accent-color);
+    background-color: var(--accent1-color);
   }
   
   p {
