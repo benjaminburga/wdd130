@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Your+Selected+Font&display=swap');
+
+:root {
+    --primary-color: #14213D;
+    --secondary-color: #E5E5E5;
+    --text-color: #FCA311;
+}
+
+
+
+body {
+    font-family: 'AR One Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--secondary-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+article img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer a img{
+    width: 1.2em;
+    height: auto;
+}
