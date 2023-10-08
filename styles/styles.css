@@ -37,6 +37,7 @@ h1{
     text-align: center;
     font-size: 1.5em;
 
+
 }
 img{
     width: 150px;
@@ -78,9 +79,9 @@ aside img{
 aside h2{
     position: absolute;
     top: 31px;
-    left: 118px;
-    font-size: 25pt;
-    color: rgb(52, 91, 123);
+    left: 114px;
+    font-size: 20pt;
+    color: rgb(138, 36, 36);
 }
 footer{
     margin-top: 1em;
