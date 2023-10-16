@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Benjamin Burga">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </fieldset>
+        <fieldset>
+            <legend>Question</legend>
+            <label for="question">What is your favorite browser?</label> 
+            <select name="browser" id="browser">
+                <option value="chrome">Chrome</option>
+                <option value="brave">Brave</option>
+                <option value="safari">Safari</option>
+                <option value="mozilla">Mozilla</option>
+                <option value="other">Other</option> 
+
+            </select>
+            <br>
+            <label for="pet">Do you have a household pet?</label> 
+            <input type="checkbox" id="pet" name="pet">  
+
+            <label for="list">List the places you have lived:</label> 
+            <textarea name="list" id="" cols="30" rows="4 " placeholder="Input text"></textarea>
+        </fieldset>
+        </form>
+        <button type="submit">Submit Poll</button>
+    </main>
+    <footer>
+        <p>©️2024 | HTML Form - User Poll Activity | Benjamin Burga</p>
+    </footer>
+    
+</body>
+</html>
