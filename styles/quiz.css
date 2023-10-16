@@ -3,31 +3,42 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
+    background-color: #e3dede;
 }
+
 form {
     max-width: 400px;
     margin: 0 auto;
     padding: 2em;
     background-color: #e3dede;
+
 }
+
+h1 {
+    color: #515be7;
+}
+
 label {
     display: block;
     margin-top: 10px;
 }
-button{
+
+button {
     background-color: #515be7;
     padding: 10px;
     color: white;
     border-radius: 5px;
-    border:none;
+    border: none;
     margin: 10px 5px 15px;
     width: 100%;
     cursor: pointer;
 }
-input,select, textarea{
+
+input, select, textarea {
     width: 100%;
-    margin: .5em;
+    margin: 0.5em;
 }
-input{
+
+input {
     height: 1.5em;
 }
