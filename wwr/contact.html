@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with Rafting Company White Water for white water rafting adventures.">
+    <meta name="author" content="Benjamin Burga">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us - White Water Rafting Company</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+        <section class="company-info">
+            <h2>Company Information</h2>
+            <address>
+                123 Main Street<br>
+                Adventure Town, RA 45678
+            </address>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@raftingco.com</p>
+            <div class="google-map">
+                <!-- Embed your Google Map here -->
+            </div>
+        </section>
+
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="employee">
+                <img src="images/employee1.jpg" alt="Employee 1">
+                <p><strong>John Doe</strong><br> Chief Guide</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee2.jpg" alt="Employee 2">
+                <p><strong>Jane Smith</strong><br> Adventure Specialist</p>
+            </div>
+            <div class="employee">
+                <img src="images/employee3.jpg" alt="Employee 3">
+                <p><strong>Michael Johnson</strong><br> Safety Officer</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Get in Touch</h2>
+            <form action="submit_contact.php" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label>Purpose of Message:</label>
+                <input type="radio" id="inquiry" name="message-purpose" value="General Inquiry" required>
+                <label for="inquiry">General Inquiry</label>
+                <input type="radio" id="reservation" name="message-purpose" value="Reservation Question" required>
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="suggestion" name="message-purpose" value="Website Suggestion" required>
+                <label for="suggestion">Website Suggestion</label>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 White Water Rafting Company | Your Name</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+        </nav>
+    </footer>
+</body>
+</html>
