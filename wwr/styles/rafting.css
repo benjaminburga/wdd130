@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto&display=swap');
+@font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v36/memQYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWq8tWZ0Pw86hd0Rk8ZkaVc.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+
 :root {
     --primary-color: #14213D;
     --secondary-color: #E5E5E5;
@@ -10,24 +26,25 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--secondary-color);
+    background-color: #E5E5E5;
     max-width: 100%;
     min-height: 100%;
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: #14213D;
     color: #fff;
     padding: 10px 20px;
     display: grid;
-    grid-template-columns: auto 1fr;   
+    grid-template-columns: auto 1fr;
 }
 
 header img {
     width: 100px;
     height: auto;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -55,7 +72,7 @@ main {
     width: 100%;
     display: block;
     height: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -65,10 +82,10 @@ h1 {
     font-size: 4rem;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
 }
+
 article {
-    position:absolute;
+    position: absolute;
     top: 270px;
     left: 18px;
     background-color: rgba(255, 255, 255, 0.9);
@@ -93,37 +110,39 @@ article {
 }
 
 section {
-    padding: 20px 0; 
-   
+    padding: 20px 0;
 }
-.adventure-images{
+
+.adventure-images {
     display: flex;
     justify-content: space-evenly;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-bottom: 2em;
-
 }
-.adventure-images img{
+
+.adventure-images img {
     width: 100%;
     border-radius: 5%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-
 }
+
 .paragraph-1 {
     margin-left: 4em;
 }
-.paragraph-2{
+
+.paragraph-2 {
     margin-left: 3em;
 }
 
-.history{
+.history {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.history img{
+
+.history img {
     width: 40%;
     height: auto;
     margin: 2em;
@@ -140,12 +159,13 @@ section img {
     height: auto;
     margin: 10px 0;
 }
+
 section h2 {
     text-align: center;
 }
 
-figcaption{
-    background-color: var(--primary-color);
+figcaption {
+    background-color: #14213D;
     color: white;
     text-align: center;
     padding: 0.3em;
@@ -154,39 +174,40 @@ figcaption{
 }
 
 footer {
-    background-color: var(--primary-color);
+    background-color: #14213D;
     color: #fff;
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
- }
-
+}
 
 footer a {
     margin: 0 10px;
 }
 
-footer a img{
+footer a img {
     width: 1.2em;
     height: auto;
 }
-.employee{
-    width: 200px;
 
+.employee {
+    width: 200px;
 }
-form{
+
+form {
     display: grid;
-    max-width: auto;
     justify-content: center;
     padding: 1em;
 }
-input{
-    margin: .5em;
-    padding: .5em;
+
+input {
+    margin: 0.5em;
+    padding: 0.5em;
 }
-button{
+
+button {
     background-color: #14213D;
     color: white;
-    padding: .7em;
+    padding: 0.7em;
 }

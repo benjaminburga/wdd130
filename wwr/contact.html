@@ -22,9 +22,7 @@
     <main>
         <h1>Contact Us</h1>
         <section class="company-info">
-
             <h2>Company Information</h2>
-
             <address>
                 Av Cristina Obregon<br>
                 Puente Piedra, Mz F LT 1
@@ -40,47 +38,47 @@
                 ></iframe>
             </div>
         </section>
-
         <section class="employee-profiles">
             <h2>Meet Our Team</h2>
             <div class="employee">
-                <img src="images/employee1.jpg" alt="Employee 1" >
-                <figcaption>Jane Smith -Chief Guide</figcaption>
-
+                <figure>
+                    <img src="images/employee1.jpg" alt="Employee 1">
+                    <figcaption>Jane Smith - Chief Guide</figcaption>
+                </figure>
             </div>
             <div class="employee">
-                <img src="images/employee2.jpg" alt="Employee 2">
-                <figcaption>Doe Smith</figcaption>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Employee 2">
+                    <figcaption>Doe Smith</figcaption>
+                </figure>
             </div>
             <div class="employee">
-                <img src="images/employee3.jpg" alt="Employee 3">
-                <figcaption>Michael Johnson - Safety Officer</figcaption>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Employee 3">
+                    <figcaption>Michael Johnson - Safety Officer</figcaption>
+                </figure>
             </div>
         </section>
-
         <section class="contact-form">
             <h2>Get in Touch</h2>
             <form action="submit_contact.php" method="post">
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required>
-
                 <label for="email">Your Email:</label>
                 <input type="email" id="email" name="email" required>
-
-                <label>Purpose of Message:</label>
-                <input type="radio" id="inquiry" name="message-purpose" value="General Inquiry" required>
-                <label for="inquiry">General Inquiry</label>
-                <input type="radio" id="reservation" name="message-purpose" value="Reservation Question" required>
-                <label for="reservation">Reservation Question</label>
-                <input type="radio" id="suggestion" name="message-purpose" value="Website Suggestion" required>
-                <label for="suggestion">Website Suggestion</label>
-
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <input type="radio" id="inquiry" name="message-purpose" value="General Inquiry" required>
+                    <label for="inquiry">General Inquiry</label>
+                    <input type="radio" id="reservation" name="message-purpose" value="Reservation Question" required>
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="suggestion" name="message-purpose" value="Website Suggestion" required>
+                    <label for="suggestion">Website Suggestion</label>
+                </fieldset>
                 <label for="message">Your Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
-
                 <input type="checkbox" id="subscribe" name="subscribe" value="yes">
                 <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-
                 <button type="submit">Send Message</button>
             </form>
         </section>
