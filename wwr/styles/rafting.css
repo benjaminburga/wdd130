@@ -171,3 +171,22 @@ footer a img{
     width: 1.2em;
     height: auto;
 }
+.employee{
+    width: 200px;
+
+}
+form{
+    display: grid;
+    max-width: auto;
+    justify-content: center;
+    padding: 1em;
+}
+input{
+    margin: .5em;
+    padding: .5em;
+}
+button{
+    background-color: #14213D;
+    color: white;
+    padding: .7em;
+}
