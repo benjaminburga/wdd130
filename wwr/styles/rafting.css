@@ -209,5 +209,21 @@ input {
 button {
     background-color: #14213D;
     color: white;
-    padding: 0.7em;
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+
+td ,th ,caption{
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: ce;
+}
+
+.contact-action{
+    text-align: center;    
 }
